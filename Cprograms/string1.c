@@ -13,6 +13,4 @@ int main(void)
 
     printf("Length: %lu\n", strlen(str1));
     printf("Result: %s\n", str1);
-
-    return 0;
 }
