@@ -16,5 +16,5 @@ int main(void)
 
     // Area = 1/2*base*height
     float area = 0.5*(base*height);
-    printf("The area of the right angled triangle is %.02f\n", area);
+    printf("The area of the right angled triangle is %.2f\n", area);
 }
