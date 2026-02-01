@@ -1,3 +1,5 @@
+// Program to find first and last digit of a n-digit positive integer
+
 #include <stdio.h>
 
 int main(void)
