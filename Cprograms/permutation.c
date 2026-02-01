@@ -28,9 +28,8 @@ int main()
 long fact(int n)
 {
     long f = 1;
-    int i;
-
-    for (i = 1; i <= n; i++)
+    
+    for (int i = 1; i <= n; i++)
     {
         f = f * i;
     }
