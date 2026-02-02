@@ -14,7 +14,7 @@ int main()
     temp = n;
 
     // Loop to reverse the number
-    while (t != 0)
+    while (temp != 0)
     {
         rev = (rev * 10) + (t % 10); // build reversed number
         temp = temp / 10;                  // remove last digit

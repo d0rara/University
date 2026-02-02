@@ -5,7 +5,7 @@
 int fib(int n);
 int main()
 {
-    int n;
+    int n, i;
 
     // Asking the user to enter number of terms
     printf("Enter the number of terms: ");
@@ -13,7 +13,7 @@ int main()
 
     // Printing Fibonacci series
     printf("Fibonacci Series: ");
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < n; i++)
     {
         printf("%d ", fib(i));
     }
